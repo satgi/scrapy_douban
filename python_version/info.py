@@ -7,23 +7,11 @@ from bs4 import BeautifulSoup
 
 class InfoClas(object):
     FETCH_URLS = [
-        "http://www.douban.com/group/beijingzufang/discussion",
-        "http://www.douban.com/group/fangzi/discussion",
-        "http://www.douban.com/group/262626/discussion",
-        "http://www.douban.com/group/276176/discussion",
-
-        # 北京租房豆瓣
-        "http://www.douban.com/group/26926/discussion",
-        # 北京租房（密探）
-        "http://www.douban.com/group/sweethome/discussion",
-        # 北京租房！找伴儿一起住一个房间！
-        "http://www.douban.com/group/242806/discussion",
-        # 北京租房房东联盟(中介勿扰) 
-        "http://www.douban.com/group/257523/discussion",
-        # 北京租房（非中介） 
-        "http://www.douban.com/group/279962/discussion",
-        # 北京租房合租房
-        "http://www.douban.com/group/334449/discussion"
+        "http://www.douban.com/group/shanghaizufang/discussion",
+        "http://www.douban.com/group/homeatshanghai/discussion",
+        "http://www.douban.com/group/zufan/discussion",
+        "http://www.douban.com/group/259227/discussion",
+        "http://www.douban.com/group/SHwoman/discussion"
     ]
 
     RESULT = []
